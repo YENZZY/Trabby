@@ -1,0 +1,171 @@
+{
+ "line": {
+  "id": 6,
+  "name": "6호선",
+  "color": "#CD7C2F",
+  "from": "응암",
+  "to": "신내"
+ },
+ "stations": [
+  {
+   "name": "응암",
+   "distFromPrev": 0
+  },
+  {
+   "name": "역촌",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "불광",
+   "distFromPrev": 800
+  },
+  {
+   "name": "독바위",
+   "distFromPrev": 900
+  },
+  {
+   "name": "연신내",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "구산",
+   "distFromPrev": 900
+  },
+  {
+   "name": "응암",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "새절",
+   "distFromPrev": 900
+  },
+  {
+   "name": "증산",
+   "distFromPrev": 900
+  },
+  {
+   "name": "디지털미디어시티",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "월드컵경기장",
+   "distFromPrev": 800
+  },
+  {
+   "name": "마포구청",
+   "distFromPrev": 800
+  },
+  {
+   "name": "망원",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "합정",
+   "distFromPrev": 800
+  },
+  {
+   "name": "상수",
+   "distFromPrev": 800
+  },
+  {
+   "name": "광흥창",
+   "distFromPrev": 900
+  },
+  {
+   "name": "대흥",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "공덕",
+   "distFromPrev": 900
+  },
+  {
+   "name": "효창공원앞",
+   "distFromPrev": 900
+  },
+  {
+   "name": "삼각지",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "녹사평",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "이태원",
+   "distFromPrev": 800
+  },
+  {
+   "name": "한강진",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "버티고개",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "약수",
+   "distFromPrev": 700
+  },
+  {
+   "name": "청구",
+   "distFromPrev": 800
+  },
+  {
+   "name": "신당",
+   "distFromPrev": 700
+  },
+  {
+   "name": "동묘앞",
+   "distFromPrev": 600
+  },
+  {
+   "name": "창신",
+   "distFromPrev": 900
+  },
+  {
+   "name": "보문",
+   "distFromPrev": 800
+  },
+  {
+   "name": "안암",
+   "distFromPrev": 900
+  },
+  {
+   "name": "고려대",
+   "distFromPrev": 800
+  },
+  {
+   "name": "월곡",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "상월곡",
+   "distFromPrev": 800
+  },
+  {
+   "name": "돌곶이",
+   "distFromPrev": 800
+  },
+  {
+   "name": "석계",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "태릉입구",
+   "distFromPrev": 800
+  },
+  {
+   "name": "화랑대",
+   "distFromPrev": 900
+  },
+  {
+   "name": "봉화산",
+   "distFromPrev": 700
+  },
+  {
+   "name": "신내",
+   "distFromPrev": 1300
+  }
+ ]
+}

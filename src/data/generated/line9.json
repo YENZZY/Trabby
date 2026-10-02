@@ -1,0 +1,163 @@
+{
+ "line": {
+  "id": 9,
+  "name": "9호선",
+  "color": "#BDB092",
+  "from": "개화",
+  "to": "중앙보훈병원"
+ },
+ "stations": [
+  {
+   "name": "개화",
+   "distFromPrev": 0
+  },
+  {
+   "name": "김포공항",
+   "distFromPrev": 3600
+  },
+  {
+   "name": "공항시장",
+   "distFromPrev": 800
+  },
+  {
+   "name": "신방화",
+   "distFromPrev": 800
+  },
+  {
+   "name": "마곡나루",
+   "distFromPrev": 900
+  },
+  {
+   "name": "양천향교",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "가양",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "증미",
+   "distFromPrev": 700
+  },
+  {
+   "name": "등촌",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "염창",
+   "distFromPrev": 900
+  },
+  {
+   "name": "신목동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "선유도",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "당산",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "국회의사당",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "여의도",
+   "distFromPrev": 900
+  },
+  {
+   "name": "샛강",
+   "distFromPrev": 800
+  },
+  {
+   "name": "노량진",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "노들",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "흑석",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "동작",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "구반포",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "신반포",
+   "distFromPrev": 700
+  },
+  {
+   "name": "고속터미널",
+   "distFromPrev": 800
+  },
+  {
+   "name": "사평",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "신논현",
+   "distFromPrev": 900
+  },
+  {
+   "name": "언주",
+   "distFromPrev": 800
+  },
+  {
+   "name": "선정릉",
+   "distFromPrev": 900
+  },
+  {
+   "name": "삼성중앙",
+   "distFromPrev": 800
+  },
+  {
+   "name": "봉은사",
+   "distFromPrev": 800
+  },
+  {
+   "name": "종합운동장",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "삼전",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "석촌고분",
+   "distFromPrev": 800
+  },
+  {
+   "name": "석촌",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "송파나루",
+   "distFromPrev": 800
+  },
+  {
+   "name": "한성백제",
+   "distFromPrev": 800
+  },
+  {
+   "name": "올림픽공원",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "둔촌오륜",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "중앙보훈병원",
+   "distFromPrev": 1700
+  }
+ ]
+}

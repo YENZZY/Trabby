@@ -1,0 +1,43 @@
+{
+ "line": {
+  "id": 51,
+  "name": "5호선 마천지선",
+  "color": "#996CAC",
+  "from": "강동",
+  "to": "마천"
+ },
+ "stations": [
+  {
+   "name": "강동",
+   "distFromPrev": 0
+  },
+  {
+   "name": "둔촌동",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "올림픽공원",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "방이",
+   "distFromPrev": 800
+  },
+  {
+   "name": "오금",
+   "distFromPrev": 900
+  },
+  {
+   "name": "개롱",
+   "distFromPrev": 900
+  },
+  {
+   "name": "거여",
+   "distFromPrev": 900
+  },
+  {
+   "name": "마천",
+   "distFromPrev": 900
+  }
+ ]
+}

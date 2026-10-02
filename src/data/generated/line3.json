@@ -1,0 +1,187 @@
+{
+ "line": {
+  "id": 3,
+  "name": "3호선",
+  "color": "#F26B1D",
+  "from": "대화",
+  "to": "오금"
+ },
+ "stations": [
+  {
+   "name": "대화",
+   "distFromPrev": 0
+  },
+  {
+   "name": "주엽",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "정발산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "마두",
+   "distFromPrev": 900
+  },
+  {
+   "name": "백석",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "대곡",
+   "distFromPrev": 2500
+  },
+  {
+   "name": "화정",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "원당",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "원흥",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "삼송",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "지축",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "구파발",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "연신내",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "불광",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "녹번",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "홍제",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "무악재",
+   "distFromPrev": 900
+  },
+  {
+   "name": "독립문",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "경복궁",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "안국",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "종로3가",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "을지로3가",
+   "distFromPrev": 600
+  },
+  {
+   "name": "충무로",
+   "distFromPrev": 700
+  },
+  {
+   "name": "동대입구",
+   "distFromPrev": 900
+  },
+  {
+   "name": "약수",
+   "distFromPrev": 700
+  },
+  {
+   "name": "금호",
+   "distFromPrev": 800
+  },
+  {
+   "name": "옥수",
+   "distFromPrev": 800
+  },
+  {
+   "name": "압구정",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "신사",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "잠원",
+   "distFromPrev": 900
+  },
+  {
+   "name": "고속터미널",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "교대",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "남부터미널",
+   "distFromPrev": 900
+  },
+  {
+   "name": "양재",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "매봉",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "도곡",
+   "distFromPrev": 800
+  },
+  {
+   "name": "대치",
+   "distFromPrev": 800
+  },
+  {
+   "name": "학여울",
+   "distFromPrev": 800
+  },
+  {
+   "name": "대청",
+   "distFromPrev": 900
+  },
+  {
+   "name": "일원",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "수서",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "가락시장",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "경찰병원",
+   "distFromPrev": 800
+  },
+  {
+   "name": "오금",
+   "distFromPrev": 800
+  }
+ ]
+}

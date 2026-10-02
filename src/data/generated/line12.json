@@ -1,0 +1,207 @@
+{
+ "line": {
+  "id": 12,
+  "name": "1호선 광명선",
+  "color": "#0052A4",
+  "from": "연천",
+  "to": "광명"
+ },
+ "stations": [
+  {
+   "name": "연천",
+   "distFromPrev": 0
+  },
+  {
+   "name": "전곡",
+   "distFromPrev": 8700
+  },
+  {
+   "name": "청산",
+   "distFromPrev": 3300
+  },
+  {
+   "name": "소요산",
+   "distFromPrev": 5800
+  },
+  {
+   "name": "동두천",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "보산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "동두천중앙",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "지행",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "덕정",
+   "distFromPrev": 5600
+  },
+  {
+   "name": "덕계",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "양주",
+   "distFromPrev": 5300
+  },
+  {
+   "name": "녹양",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "가능",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "의정부",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "회룡",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "망월사",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "도봉산",
+   "distFromPrev": 2300
+  },
+  {
+   "name": "도봉",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "방학",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "창동",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "녹천",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "월계",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "광운대",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "석계",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "신이문",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "외대앞",
+   "distFromPrev": 800
+  },
+  {
+   "name": "회기",
+   "distFromPrev": 800
+  },
+  {
+   "name": "청량리",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "제기동",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "신설동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "동묘앞",
+   "distFromPrev": 700
+  },
+  {
+   "name": "동대문",
+   "distFromPrev": 600
+  },
+  {
+   "name": "종로5가",
+   "distFromPrev": 800
+  },
+  {
+   "name": "종로3가",
+   "distFromPrev": 900
+  },
+  {
+   "name": "종각",
+   "distFromPrev": 800
+  },
+  {
+   "name": "시청",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "서울역",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "남영",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "용산",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "노량진",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "대방",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "신길",
+   "distFromPrev": 800
+  },
+  {
+   "name": "영등포",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "신도림",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "구로",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "가산디지털단지",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "독산",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "금천구청",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "광명",
+   "distFromPrev": 4700
+  }
+ ]
+}

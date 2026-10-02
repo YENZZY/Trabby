@@ -1,0 +1,223 @@
+{
+ "line": {
+  "id": 7,
+  "name": "7호선",
+  "color": "#747F00",
+  "from": "장암",
+  "to": "석남"
+ },
+ "stations": [
+  {
+   "name": "장암",
+   "distFromPrev": 0
+  },
+  {
+   "name": "도봉산",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "수락산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "마들",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "노원",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "중계",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "하계",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "공릉",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "태릉입구",
+   "distFromPrev": 800
+  },
+  {
+   "name": "먹골",
+   "distFromPrev": 900
+  },
+  {
+   "name": "중화",
+   "distFromPrev": 900
+  },
+  {
+   "name": "상봉",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "면목",
+   "distFromPrev": 800
+  },
+  {
+   "name": "사가정",
+   "distFromPrev": 900
+  },
+  {
+   "name": "용마산",
+   "distFromPrev": 800
+  },
+  {
+   "name": "중곡",
+   "distFromPrev": 900
+  },
+  {
+   "name": "군자",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "어린이대공원",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "건대입구",
+   "distFromPrev": 800
+  },
+  {
+   "name": "자양",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "청담",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "강남구청",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "학동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "논현",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "반포",
+   "distFromPrev": 900
+  },
+  {
+   "name": "고속터미널",
+   "distFromPrev": 900
+  },
+  {
+   "name": "내방",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "이수",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "남성",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "숭실대입구",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "상도",
+   "distFromPrev": 900
+  },
+  {
+   "name": "장승배기",
+   "distFromPrev": 900
+  },
+  {
+   "name": "신대방삼거리",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "보라매",
+   "distFromPrev": 800
+  },
+  {
+   "name": "신풍",
+   "distFromPrev": 900
+  },
+  {
+   "name": "대림",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "남구로",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "가산디지털단지",
+   "distFromPrev": 800
+  },
+  {
+   "name": "철산",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "광명사거리",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "천왕",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "온수",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "까치울",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "부천종합운동장",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "춘의",
+   "distFromPrev": 800
+  },
+  {
+   "name": "신중동",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "부천시청",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "상동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "삼산체육관",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "굴포천",
+   "distFromPrev": 900
+  },
+  {
+   "name": "부평구청",
+   "distFromPrev": 900
+  },
+  {
+   "name": "산곡",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "석남",
+   "distFromPrev": 2600
+  }
+ ]
+}

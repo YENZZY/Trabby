@@ -1,0 +1,207 @@
+{
+ "line": {
+  "id": 5,
+  "name": "5호선",
+  "color": "#996CAC",
+  "from": "방화",
+  "to": "하남검단산"
+ },
+ "stations": [
+  {
+   "name": "방화",
+   "distFromPrev": 0
+  },
+  {
+   "name": "개화산",
+   "distFromPrev": 900
+  },
+  {
+   "name": "김포공항",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "송정",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "마곡",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "발산",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "우장산",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "화곡",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "까치산",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "신정",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "목동",
+   "distFromPrev": 800
+  },
+  {
+   "name": "오목교",
+   "distFromPrev": 900
+  },
+  {
+   "name": "양평",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "영등포구청",
+   "distFromPrev": 800
+  },
+  {
+   "name": "영등포시장",
+   "distFromPrev": 900
+  },
+  {
+   "name": "신길",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "여의도",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "여의나루",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "마포",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "공덕",
+   "distFromPrev": 800
+  },
+  {
+   "name": "애오개",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "충정로",
+   "distFromPrev": 900
+  },
+  {
+   "name": "서대문",
+   "distFromPrev": 700
+  },
+  {
+   "name": "광화문",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "종로3가",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "을지로4가",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "동대문역사문화공원",
+   "distFromPrev": 900
+  },
+  {
+   "name": "청구",
+   "distFromPrev": 900
+  },
+  {
+   "name": "신금호",
+   "distFromPrev": 900
+  },
+  {
+   "name": "행당",
+   "distFromPrev": 900
+  },
+  {
+   "name": "왕십리",
+   "distFromPrev": 900
+  },
+  {
+   "name": "마장",
+   "distFromPrev": 700
+  },
+  {
+   "name": "답십리",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "장한평",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "군자",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "아차산",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "광나루",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "천호",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "강동",
+   "distFromPrev": 800
+  },
+  {
+   "name": "길동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "굽은다리",
+   "distFromPrev": 800
+  },
+  {
+   "name": "명일",
+   "distFromPrev": 800
+  },
+  {
+   "name": "고덕",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "상일동",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "강일",
+   "distFromPrev": 800
+  },
+  {
+   "name": "미사",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "하남풍산",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "하남시청",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "하남검단산",
+   "distFromPrev": 1600
+  }
+ ]
+}

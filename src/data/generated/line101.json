@@ -1,0 +1,71 @@
+{
+ "line": {
+  "id": 101,
+  "name": "에버라인",
+  "color": "#44B52C",
+  "from": "기흥",
+  "to": "전대.에버랜드"
+ },
+ "stations": [
+  {
+   "name": "기흥",
+   "distFromPrev": 0
+  },
+  {
+   "name": "강남대",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "지석",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "어정",
+   "distFromPrev": 900
+  },
+  {
+   "name": "동백",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "초당",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "삼가",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "시청.용인대",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "명지대",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "김량장",
+   "distFromPrev": 800
+  },
+  {
+   "name": "용인중앙시장",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "고진",
+   "distFromPrev": 900
+  },
+  {
+   "name": "보평",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "둔전",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "전대.에버랜드",
+   "distFromPrev": 2600
+  }
+ ]
+}

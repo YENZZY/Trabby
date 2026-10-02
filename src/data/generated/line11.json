@@ -1,0 +1,331 @@
+{
+ "line": {
+  "id": 11,
+  "name": "1호선 경부선",
+  "color": "#0052A4",
+  "from": "연천",
+  "to": "신창"
+ },
+ "stations": [
+  {
+   "name": "연천",
+   "distFromPrev": 0
+  },
+  {
+   "name": "전곡",
+   "distFromPrev": 8700
+  },
+  {
+   "name": "청산",
+   "distFromPrev": 3300
+  },
+  {
+   "name": "소요산",
+   "distFromPrev": 5800
+  },
+  {
+   "name": "동두천",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "보산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "동두천중앙",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "지행",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "덕정",
+   "distFromPrev": 5600
+  },
+  {
+   "name": "덕계",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "양주",
+   "distFromPrev": 5300
+  },
+  {
+   "name": "녹양",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "가능",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "의정부",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "회룡",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "망월사",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "도봉산",
+   "distFromPrev": 2300
+  },
+  {
+   "name": "도봉",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "방학",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "창동",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "녹천",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "월계",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "광운대",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "석계",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "신이문",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "외대앞",
+   "distFromPrev": 800
+  },
+  {
+   "name": "회기",
+   "distFromPrev": 800
+  },
+  {
+   "name": "청량리",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "제기동",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "신설동",
+   "distFromPrev": 900
+  },
+  {
+   "name": "동묘앞",
+   "distFromPrev": 700
+  },
+  {
+   "name": "동대문",
+   "distFromPrev": 600
+  },
+  {
+   "name": "종로5가",
+   "distFromPrev": 800
+  },
+  {
+   "name": "종로3가",
+   "distFromPrev": 900
+  },
+  {
+   "name": "종각",
+   "distFromPrev": 800
+  },
+  {
+   "name": "시청",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "서울역",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "남영",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "용산",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "노량진",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "대방",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "신길",
+   "distFromPrev": 800
+  },
+  {
+   "name": "영등포",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "신도림",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "구로",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "가산디지털단지",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "독산",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "금천구청",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "석수",
+   "distFromPrev": 1900
+  },
+  {
+   "name": "관악",
+   "distFromPrev": 1900
+  },
+  {
+   "name": "안양",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "명학",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "금정",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "군포",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "당정",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "의왕",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "성균관대",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "화서",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "수원",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "세류",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "병점",
+   "distFromPrev": 4300
+  },
+  {
+   "name": "세마",
+   "distFromPrev": 2400
+  },
+  {
+   "name": "오산대",
+   "distFromPrev": 2700
+  },
+  {
+   "name": "오산",
+   "distFromPrev": 2700
+  },
+  {
+   "name": "진위",
+   "distFromPrev": 4000
+  },
+  {
+   "name": "송탄",
+   "distFromPrev": 3800
+  },
+  {
+   "name": "서정리",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "평택지제",
+   "distFromPrev": 4800
+  },
+  {
+   "name": "평택",
+   "distFromPrev": 3700
+  },
+  {
+   "name": "성환",
+   "distFromPrev": 9400
+  },
+  {
+   "name": "직산",
+   "distFromPrev": 5400
+  },
+  {
+   "name": "두정",
+   "distFromPrev": 3800
+  },
+  {
+   "name": "천안",
+   "distFromPrev": 3100
+  },
+  {
+   "name": "봉명",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "쌍용",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "아산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "탕정",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "배방",
+   "distFromPrev": 3100
+  },
+  {
+   "name": "온양온천",
+   "distFromPrev": 4900
+  },
+  {
+   "name": "신창",
+   "distFromPrev": 5100
+  }
+ ]
+}

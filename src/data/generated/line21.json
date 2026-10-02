@@ -1,0 +1,31 @@
+{
+ "line": {
+  "id": 21,
+  "name": "2호선 성수지선",
+  "color": "#00A84D",
+  "from": "성수",
+  "to": "신설동"
+ },
+ "stations": [
+  {
+   "name": "성수",
+   "distFromPrev": 0
+  },
+  {
+   "name": "용답",
+   "distFromPrev": 2300
+  },
+  {
+   "name": "신답",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "용두",
+   "distFromPrev": 900
+  },
+  {
+   "name": "신설동",
+   "distFromPrev": 1200
+  }
+ ]
+}

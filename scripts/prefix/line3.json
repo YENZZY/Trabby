@@ -1,0 +1,46 @@
+{
+ "joinStation": "지축",
+ "joinDistM": 1700,
+ "stations": [
+  {
+   "name": "대화",
+   "distFromPrev": 0
+  },
+  {
+   "name": "주엽",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "정발산",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "마두",
+   "distFromPrev": 900
+  },
+  {
+   "name": "백석",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "대곡",
+   "distFromPrev": 2500
+  },
+  {
+   "name": "화정",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "원당",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "원흥",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "삼송",
+   "distFromPrev": 2100
+  }
+ ]
+}

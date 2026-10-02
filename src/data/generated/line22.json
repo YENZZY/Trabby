@@ -1,0 +1,31 @@
+{
+ "line": {
+  "id": 22,
+  "name": "2호선 신정지선",
+  "color": "#00A84D",
+  "from": "신도림",
+  "to": "까치산"
+ },
+ "stations": [
+  {
+   "name": "신도림",
+   "distFromPrev": 0
+  },
+  {
+   "name": "도림천",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "양천구청",
+   "distFromPrev": 1700
+  },
+  {
+   "name": "신정네거리",
+   "distFromPrev": 1900
+  },
+  {
+   "name": "까치산",
+   "distFromPrev": 1400
+  }
+ ]
+}

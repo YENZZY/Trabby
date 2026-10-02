@@ -1,0 +1,215 @@
+{
+ "line": {
+  "id": 4,
+  "name": "4호선",
+  "color": "#00A5DE",
+  "from": "진접",
+  "to": "오이도"
+ },
+ "stations": [
+  {
+   "name": "진접",
+   "distFromPrev": 0
+  },
+  {
+   "name": "오남",
+   "distFromPrev": 2100
+  },
+  {
+   "name": "별내별가람",
+   "distFromPrev": 7700
+  },
+  {
+   "name": "불암산",
+   "distFromPrev": 4400
+  },
+  {
+   "name": "상계",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "노원",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "창동",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "쌍문",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "수유",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "미아",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "미아사거리",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "길음",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "성신여대입구",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "한성대입구",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "혜화",
+   "distFromPrev": 900
+  },
+  {
+   "name": "동대문",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "동대문역사문화공원",
+   "distFromPrev": 700
+  },
+  {
+   "name": "충무로",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "명동",
+   "distFromPrev": 700
+  },
+  {
+   "name": "회현",
+   "distFromPrev": 700
+  },
+  {
+   "name": "서울역",
+   "distFromPrev": 900
+  },
+  {
+   "name": "숙대입구",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "삼각지",
+   "distFromPrev": 1200
+  },
+  {
+   "name": "신용산",
+   "distFromPrev": 700
+  },
+  {
+   "name": "이촌",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "동작",
+   "distFromPrev": 2700
+  },
+  {
+   "name": "총신대입구",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "사당",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "남태령",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "선바위",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "경마공원",
+   "distFromPrev": 900
+  },
+  {
+   "name": "대공원",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "과천",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "정부과천청사",
+   "distFromPrev": 1000
+  },
+  {
+   "name": "인덕원",
+   "distFromPrev": 3000
+  },
+  {
+   "name": "평촌",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "범계",
+   "distFromPrev": 1300
+  },
+  {
+   "name": "금정",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "산본",
+   "distFromPrev": 2300
+  },
+  {
+   "name": "수리산",
+   "distFromPrev": 1100
+  },
+  {
+   "name": "대야미",
+   "distFromPrev": 2600
+  },
+  {
+   "name": "반월",
+   "distFromPrev": 2000
+  },
+  {
+   "name": "상록수",
+   "distFromPrev": 3700
+  },
+  {
+   "name": "한대앞",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "중앙",
+   "distFromPrev": 1600
+  },
+  {
+   "name": "고잔",
+   "distFromPrev": 1400
+  },
+  {
+   "name": "초지",
+   "distFromPrev": 1500
+  },
+  {
+   "name": "안산",
+   "distFromPrev": 1800
+  },
+  {
+   "name": "신길온천",
+   "distFromPrev": 2200
+  },
+  {
+   "name": "정왕",
+   "distFromPrev": 2900
+  },
+  {
+   "name": "오이도",
+   "distFromPrev": 1400
+  }
+ ]
+}
