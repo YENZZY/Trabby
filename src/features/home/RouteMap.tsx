@@ -26,7 +26,7 @@ const Tree = ({ x, y, s = 1 }: { x: number; y: number; s?: number }) => (
   </>
 );
 
-export function RouteMap({ data, meters }: { data: LineData; meters: number }) {
+export function RouteMap({ data, meters, emoji }: { data: LineData; meters: number; emoji?: string | null }) {
   const { stations, line } = data;
   const pts = React.useMemo(() => layout(data), [data]);
   const { seg, t } = locate(data, meters);
@@ -77,7 +77,11 @@ export function RouteMap({ data, meters }: { data: LineData; meters: number }) {
                 <SvgText x={bx} y={me.y - 70} fontSize={11} fontWeight="600" fill="#8A7B6D" textAnchor="middle">
                   {meters <= 0 ? '걸으면 움직여요' : '도착할 수 있어요!'}
                 </SvgText>
-                <Turtle x={me.x} y={me.y - 14} color={line.color} />
+                {emoji ? (
+                  <SvgText x={me.x} y={me.y + 2} fontSize={38} textAnchor="middle">{emoji}</SvgText>
+                ) : (
+                  <Turtle x={me.x} y={me.y - 14} color={line.color} />
+                )}
               </>
             )}
           </Svg>

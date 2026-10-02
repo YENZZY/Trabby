@@ -4,7 +4,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Pedometer } from 'expo-sensors';
 import { useTrabby } from '../../store/useTrabby';
 import { STRIDE_M } from '../../lib/progress';
-import { THEMES } from './themes';
+import { THEMES, themeUnlocked } from './themes';
+import { useCharacter } from '../../store/useCharacter';
 
 const SUPPORT_EMAIL = 'support@trabby.app'; // TODO: 실제 문의 메일로 교체
 const FAQ = [
@@ -21,6 +22,7 @@ export default function Settings() {
   const [avail, setAvail] = useState<boolean | null>(null);
   const [nick, setNick] = useState(settings.nickname);
   useEffect(() => { Pedometer.isAvailableAsync().then(setAvail).catch(() => setAvail(false)); }, []);
+  const character = useCharacter();
   const close = () => setSheet(null);
   const themeName = THEMES.find((t) => t.id === settings.theme)?.name ?? '하늘';
   const sensor = avail === null ? '확인 중' : avail ? '연결됨' : '사용 불가';
@@ -40,7 +42,7 @@ export default function Settings() {
       <ScrollView>
         <Text style={s.h}>⚙️  설정</Text>
         <Pressable style={[s.card, s.profile]} onPress={() => { setNick(settings.nickname); setSheet('nick'); }}>
-          <View style={s.av}><Text style={{ fontSize: 34 }}>🐢</Text></View>
+          <View style={s.av}><Text style={{ fontSize: 34 }}>{character.emoji ?? '🐢'}</Text></View>
           <View style={{ flex: 1 }}><Text style={s.t}>{settings.nickname} 🌱</Text><Text style={s.d}>오늘도 걷는 중!</Text></View>
           <Text style={s.chev}>›</Text>
         </Pressable>
@@ -77,16 +79,18 @@ export default function Settings() {
             </>)}
             {sheet === 'theme' && (<>
               <Text style={s.sh}>테마 설정</Text>
-              {THEMES.map((t) => {
-                const locked = t.needLine !== undefined && !cleared[t.needLine];
-                return (
-                  <Pressable key={t.id} disabled={locked} onPress={() => { setSetting('theme', t.id); close(); }} style={[s.srow, locked && { opacity: 0.5 }]}>
-                    <View style={[s.sw, { backgroundColor: t.bg }]} />
-                    <Text style={[s.t, { flex: 1 }]}>{t.name}</Text>
-                    <Text style={s.d}>{locked ? `🔒 ${t.needLine}호선 완주 시 해금` : settings.theme === t.id ? '✔ 사용 중' : ''}</Text>
-                  </Pressable>
-                );
-              })}
+              <ScrollView style={{ maxHeight: 380 }}>
+                {THEMES.map((t) => {
+                  const locked = !themeUnlocked(t, cleared);
+                  return (
+                    <Pressable key={t.id} disabled={locked} onPress={() => { setSetting('theme', t.id); close(); }} style={[s.srow, locked && { opacity: 0.5 }]}>
+                      <View style={[s.sw, { backgroundColor: t.bg }]} />
+                      <Text style={[s.t, { flex: 1 }]}>{t.name}</Text>
+                      <Text style={s.d}>{locked ? `🔒 ${t.needGroup} 완주 시 해금` : settings.theme === t.id ? '✔ 사용 중' : ''}</Text>
+                    </Pressable>
+                  );
+                })}
+              </ScrollView>
             </>)}
             {sheet === 'lang' && (<>
               <Text style={s.sh}>언어 설정</Text>

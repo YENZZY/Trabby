@@ -2,6 +2,8 @@
  "line": {
   "id": 8,
   "name": "8호선",
+  "group": "8호선",
+  "kind": "main",
   "color": "#E6186C",
   "from": "별내",
   "to": "모란"

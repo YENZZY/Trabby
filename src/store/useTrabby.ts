@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { LINE_DATA } from '../data';
 import { metrics } from '../lib/progress';
 
-export type Settings = { nickname: string; arrivalAlert: boolean; extAlert: boolean; theme: string };
+export type Settings = { nickname: string; arrivalAlert: boolean; extAlert: boolean; theme: string; character: string };
 
 type State = {
   activeLine: number; // 지금 걷는 노선 (한 번에 하나만)
@@ -30,7 +30,7 @@ export const useTrabby = create<State>()(
       clearedMeters: {},
       todaySteps: 0,
       todayDate: '',
-      settings: { nickname: '트라비러버', arrivalAlert: true, extAlert: true, theme: 'sky' },
+      settings: { nickname: '트라비러버', arrivalAlert: true, extAlert: true, theme: 'sky', character: 'turtle' },
       setSetting: (k, v) => set((s) => ({ settings: { ...s.settings, [k]: v } })),
       addSteps: (n) =>
         set((s) => {

@@ -2,6 +2,8 @@
  "line": {
   "id": 4,
   "name": "4호선",
+  "group": "4호선",
+  "kind": "main",
   "color": "#00A5DE",
   "from": "진접",
   "to": "오이도"

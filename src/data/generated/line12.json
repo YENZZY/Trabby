@@ -2,6 +2,8 @@
  "line": {
   "id": 12,
   "name": "1호선 광명선",
+  "group": "1호선",
+  "kind": "extra",
   "color": "#0052A4",
   "from": "연천",
   "to": "광명"

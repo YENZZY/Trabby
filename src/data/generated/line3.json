@@ -2,6 +2,8 @@
  "line": {
   "id": 3,
   "name": "3호선",
+  "group": "3호선",
+  "kind": "main",
   "color": "#F26B1D",
   "from": "대화",
   "to": "오금"

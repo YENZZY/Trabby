@@ -9,7 +9,9 @@ import { usePedometer } from './usePedometer';
 import { DAILY_GOAL, metrics } from '../../lib/progress';
 import NextLineSheet from '../lines/NextLineSheet';
 import { themeBg } from '../settings/themes';
-import { LINE_DATA, lineLabel } from '../../data';
+import { LINE_DATA, LINE_GROUPS, lineLabel } from '../../data';
+import { CHARACTERS } from '../../data/rewards';
+import { useCharacter } from '../../store/useCharacter';
 
 export default function Home() {
   usePedometer();
@@ -32,6 +34,13 @@ export default function Home() {
       return () => clearTimeout(id);
     }
   }, [reached, line.id]);
+  const character = useCharacter();
+  // 보상: 본선 완주 → 그 노선 컬러 테마 / 추가 코스(지선 등) 완주 → 캐릭터. 뱃지는 코스마다
+  const group = line.group ?? line.name;
+  const ch = CHARACTERS.find((c) => c.route === line.id);
+  const rewards: [string, string][] = line.kind === 'extra'
+    ? [...(ch ? ([[ch.emoji, ch.name]] as [string, string][]) : []), ['🏅', `${line.name} 완주 뱃지`]]
+    : [['🎨', `${group} 컬러 테마`], ['🏅', `${line.name} 완주 뱃지`]];
   const next = Object.keys(LINE_DATA).map(Number).find((id) => id !== line.id && !clearedMap[id]);
   const router = useRouter();
   const sc = useRef<ScrollView>(null);
@@ -70,7 +79,7 @@ export default function Home() {
 
       <View style={s.map}>
         <ScrollView ref={sc} contentContainerStyle={{ alignItems: 'center', minHeight: mapHeight(data.stations.length) }}>
-          <RouteMap data={data} meters={shown} />
+          <RouteMap data={data} meters={shown} emoji={character.emoji} />
         </ScrollView>
         <Pressable style={s.nav} onPress={() => center(meters)}><Text style={{ fontSize: 18, color: '#F26B1D' }}>➤</Text></Pressable>
       </View>
@@ -133,7 +142,7 @@ export default function Home() {
           <View style={{ backgroundColor: '#fff', borderRadius: 24, padding: 16, marginTop: 10, width: 300 }}>
             <Text style={[s.title, { textAlign: 'center', fontSize: 15 }]}>획득한 보상</Text>
             <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 12 }}>
-              {[['🐢', '새로운 트라비'], ['🎨', `${line.name} 테마 컬러`], ['🏅', `${line.name} 완주 뱃지`]].map(([e, n]) => (
+              {rewards.map(([e, n]) => (
                 <View key={n} style={{ alignItems: 'center', width: 84 }}>
                   <View style={{ width: 60, height: 60, borderRadius: 30, backgroundColor: '#FFE8D6', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 28 }}>{e}</Text></View>
                   <Text style={[s.sub, { marginTop: 6, textAlign: 'center' }]}>{n}</Text>

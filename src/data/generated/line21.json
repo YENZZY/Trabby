@@ -2,6 +2,8 @@
  "line": {
   "id": 21,
   "name": "2호선 성수지선",
+  "group": "2호선",
+  "kind": "extra",
   "color": "#00A84D",
   "from": "성수",
   "to": "신설동"

@@ -1,7 +1,7 @@
 import { GENERATED } from './generated';
 
 export type LineData = {
-  line: { id: number; name: string; color: string; from: string; to: string };
+  line: { id: number; name: string; group?: string; kind?: 'main' | 'extra'; color: string; from: string; to: string };
   stations: { name: string; distFromPrev: number }[];
 };
 
@@ -18,3 +18,20 @@ const EXTRA: [string, string][] = Object.values(LINE_DATA).filter((d) => d.line.
 export const LINES: [string, string][] = [...BASE, ...EXTRA];
 export const lineLabel = (id: number) => LINE_DATA[id]?.line.name ?? `${id}호선`;
 export const lineBadge = (id: number) => (id > 9 ? (LINE_DATA[id]?.line.name ?? '?').slice(0, 1) : String(id));
+
+// 같은 노선의 코스끼리 묶음 (예: 1호선 = 경인선·경부선·광명선·서동탄선). 노선도 탭·뱃지에서 사용
+export type LineGroup = { name: string; ids: number[] };
+export const LINE_GROUPS: LineGroup[] = (() => {
+  const m = new Map<string, number[]>();
+  Object.keys(LINE_DATA).map(Number).sort((a, b) => a - b).forEach((id) => {
+    const g = LINE_DATA[id].line.group ?? LINE_DATA[id].line.name;
+    m.set(g, [...(m.get(g) ?? []), id]);
+  });
+  return [...m].map(([name, ids]) => ({ name, ids }));
+})();
+// '1호선 경인선' → '경인선', 코스가 하나뿐이면 '본선'
+export const courseName = (id: number) => {
+  const l = LINE_DATA[id].line;
+  const g = l.group ?? l.name;
+  return l.name === g ? '본선' : l.name.replace(g, '').trim() || l.name;
+};

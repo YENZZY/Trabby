@@ -2,6 +2,8 @@
  "line": {
   "id": 1,
   "name": "1호선 경인선",
+  "group": "1호선",
+  "kind": "main",
   "color": "#0052A4",
   "from": "연천",
   "to": "인천"

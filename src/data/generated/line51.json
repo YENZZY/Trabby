@@ -2,6 +2,8 @@
  "line": {
   "id": 51,
   "name": "5호선 마천지선",
+  "group": "5호선",
+  "kind": "extra",
   "color": "#996CAC",
   "from": "강동",
   "to": "마천"

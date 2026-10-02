@@ -2,6 +2,8 @@
  "line": {
   "id": 7,
   "name": "7호선",
+  "group": "7호선",
+  "kind": "main",
   "color": "#747F00",
   "from": "장암",
   "to": "석남"

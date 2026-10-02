@@ -2,6 +2,8 @@
  "line": {
   "id": 13,
   "name": "1호선 서동탄선",
+  "group": "1호선",
+  "kind": "extra",
   "color": "#0052A4",
   "from": "연천",
   "to": "서동탄"

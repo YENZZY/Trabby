@@ -1,4 +1,4 @@
-// routes.json 의 parts(파일 안 조각들)를 이어 붙여 한 코스의 역 목록과 거리를 만들어요.
+// scripts/config/routes.json 의 parts(파일 안 조각들)를 이어 붙여 한 코스의 역 목록과 거리를 만들어요.
 const { nameOf } = require('./normalize');
 const { step, cands } = require('./resolve');
 

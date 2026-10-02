@@ -2,6 +2,8 @@
  "line": {
   "id": 9,
   "name": "9호선",
+  "group": "9호선",
+  "kind": "main",
   "color": "#BDB092",
   "from": "개화",
   "to": "중앙보훈병원"

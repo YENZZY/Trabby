@@ -2,6 +2,8 @@
  "line": {
   "id": 5,
   "name": "5호선",
+  "group": "5호선",
+  "kind": "main",
   "color": "#996CAC",
   "from": "방화",
   "to": "하남검단산"
